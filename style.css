@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	scroll-behavior: smooth;
+	background: #eeeeee;
+	font-family: 'Patrick Hand SC', cursive;
+}
+
+.nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 5rem;
+	background: #eeeeee;
+	position: fixed;
+	z-index: 100000;
+	border-bottom: 1.5px solid #c0c0c0;
+}
+
+.nav-div{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.nav-ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-item{
+	padding-left: 2rem;
+	list-style: none;
+}
+
+.nav-item-url{
+	font-size: 2rem;
+	text-decoration: none;
+	color: #414A4C;
+	transition: all ease .4s;
+}
+
+.logo{
+	font-size: 2rem;
+	text-decoration: none;
+	color: #414A4C;
+	transition: all ease .4s;
+}
+
+.nav-item:hover{
+	text-shadow: 4px 4px 4px rgba(65, 74, 76, 0.8);
+}
+
+.logo-e:hover{
+	text-shadow: 4px 4px 4px rgba(65, 74, 76, 0.8);
+}
+
+.title{
+	text-align: center;
+	font-size: 4rem;
+	color: #eeeeee;
+	text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+	transition: all ease .4s;
+	vertical-align: middle;
+	padding-bottom: 1.2rem;
+}
+
+.title:hover{
+	transform: scale(1.05);
+}
+
+.home-sec{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: #414A4C;
+}
+
+.home-cont{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	width: 100vw;
+	height: 80vh;
+	padding: 0;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.title-div-home{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 60%;
+}
+
+.home-text-div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+}
+
+.home-text{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 2rem;
+	color: #C0C0C0;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+}
+
+.img-div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40%;
+}
+
+.img{
+	transform: scale(0.35);
+	transition: all ease .4s;
+	border-radius: 50% 50%;
+	border: 5px solid #eeeeee;
+}
+
+.img:hover{
+	border-radius: 35% 5%;
+	border: 7px solid #eeeeee;
+	transform: scale(0.4);
+}
+
+.btn-cont-home{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 1.5rem;
+}
+
+.home-btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #eeeeee;
+	font-size: 1.5rem;
+	text-decoration: none;
+	border: 2.5px solid #eeeeee;
+	width: 10rem;
+	height: 3rem;
+	border-radius: 3px;
+	transition: all ease 0.4s;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.home-btn:hover{
+	color: #D3D3D3;
+	transform: scale(1.1);
+}
+
+.scroll-div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 5rem;
+	width: 100vw;
+}
+
+.scroll-ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ul-li{
+	list-style: none;
+	font-size: 2rem;
+	color: #c0c0c0;
+	transition: all ease .4s;
+}
+
+.li-link{
+	text-decoration: none;
+	color: #c0c0c0;
+}
+
+.ul-li:hover{
+	transform: scale(1.1);
+	color: #eeeeee;
+}
+
+.bihar-sec{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 200vh;
+	border-top: 2px solid #c0c0c0;
+}
+
+.bihar-cont{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100vw;
+	margin-right: 2rem;
+	margin-left: 2rem;
+	margin-top: 3rem;
+}
+
+.sec-cont{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	width: 50%;
+	padding-top: 1rem;
+}
+
+.bihar-title-div{
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 1.5rem;
+	text-align: center;
+}
+
+.bihar-title{
+	font-size: 4rem;
+	text-transform: uppercase;
+	color: #414A4C;
+	text-shadow: 4px 4px 0px rgba(65, 74, 76, 0.4);
+}
+
+.bihar-text{
+	font-size: 1.4rem;
+	text-shadow: 4px 4px 0px rgba(65, 74, 76, 0.25);
+}
+
+.sec-title-div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding-bottom: 1rem;
+}
+
+.sec-title{
+	font-size: 1.5rem;
+}
+
+.bihar-img-div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30%;
+	padding-top: 1rem;
+}
+
+.bihar-img{
+	width: 350px;
+	height: 200px;
+	border: 2px solid #eeeeee;
+	border-radius: 20px;
+	transition: all ease .4s;
+	box-shadow: 16px 17px 11px 3px rgba(0,0,0,0.44);
+	-webkit-box-shadow: 16px 17px 11px 3px rgba(0,0,0,0.44);
+	-moz-box-shadow: 16px 17px 11px 3px rgba(0,0,0,0.44);
+}
+
+.bihar-img:hover{
+	transform: scale(1.05);
+	box-shadow: 22px 23px 21px 7px rgba(0,0,0,0.40);
+	-webkit-box-shadow: 22px 23px 21px 7px rgba(0,0,0,0.40);
+	-moz-box-shadow: 22px 23px 21px 7px rgba(0,0,0,0.40);
+}
+
+.sec1-btn-div{
+	height: 10%;
+	width: 100%;
+	display: flex;
+	margin-top: 3rem;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.btn-div{
+	width: 10rem;
+	height: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #414A4C;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	transition: all ease .4s;
+}
+
+.sec1-btn{
+	font-size: 2rem;
+	text-align: center;
+	color: #eeeeee;
+	text-decoration: none;
+	width: 10rem;
+	height: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #414A4C;
+	border-radius: 5px;
+	transition: all ease .4s;
+}
+
+.sec2-btn{
+	font-size: 2rem;
+	text-align: center;
+	color: #eeeeee;
+	text-decoration: none;
+	width: 15rem;
+	height: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #414A4C;
+	border-radius: 5px;
+	transition: all ease .4s;
+}
+
+.btn2-div{
+	width: 15rem;
+	height: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #414A4C;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	transition: all ease .4s;
+}
+
+.btn-div:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.btn2-div:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.cont-down{
+	padding-top: 5rem;
+}
+
+.credits-sec{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+	padding-top: 5rem;
+}
+
+.credits-cont{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	text-align: center;
+	flex-direction: column;
+}
+
+.links-div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	bottom: 10%;
+}
+
+.credits-link{
+	text-align: center;
+	color: #c0c0c0;
+	list-style: none;
+	font-size: 2rem;
+	transition: all ease .4s;
+}
+
+.credits-link:hover{
+	transform: scale(1.2);
+	color: #414A4C;
+}
+
+.names-div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding-bottom: 5rem;
+	flex-direction: column;
+}
+
+.cont-div-credit{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.credits-title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding-bottom: 2.5rem;
+	font-size: 4rem;
+	color: #414A4C;
+	text-shadow: 4px 4px 0px rgba(65, 74, 76, 0.4);
+	letter-spacing: 2.5px;
+}
+
+.credits-cont{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 2rem;
+}
